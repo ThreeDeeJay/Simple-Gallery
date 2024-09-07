@@ -10,6 +10,7 @@ pluginManagement {
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
+        maven(url = "https://raw.githubusercontent.com/ThreeDeeJay/Simple-Gallery/master/app/lib")
         flatDir name: 'libs', dirs: "/home/runner/work/Simple-Gallery/Simple-Gallery/app/lib"
         maven(url = "https://chromium.googlesource.com/external/github.com/googlevr/gvr-android-sdk/+/25a0c20415bd3854b76f3e0e55f73d36cdc076fd/libraries")
         google()
