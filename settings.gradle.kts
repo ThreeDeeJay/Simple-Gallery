@@ -1,8 +1,8 @@
 pluginManagement {
     repositories {
+        jcenter()
         gradlePluginPortal()
         google()
-        jcenter()
         mavenCentral()
         maven(url = "https://artifactory.img.ly/artifactory/imgly")
     }
@@ -10,8 +10,8 @@ pluginManagement {
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
-        google()
         jcenter()
+        google()
         mavenCentral()
         maven { setUrl("https://jitpack.io") }
         maven(url = "https://artifactory.img.ly/artifactory/imgly")
